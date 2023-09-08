@@ -37,3 +37,4 @@ if __name__ == "__main__":
 
     # Print out the area function
     print("area:", rect.area())
+
