@@ -30,7 +30,10 @@ class Rectangle(Shape):
 
 if __name__ == "__main__":
     # Create a rectangle object
-    rect = Rectangle()
+    rect = Rectangle(1, 2)
+
+    # Print out the area function
+    print("area:", rect.area())
 
     # Call a member function
     rect.set_values(3, 4)
