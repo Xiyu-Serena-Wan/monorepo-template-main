@@ -1,7 +1,7 @@
 # Monorepo
 
 - [ ] *Xiyu Wan* **(TODO: Change this heading to your name, because your github name is often not your real name)**
-- [ ] *Shee Yoo ) of your name here* **(TODO: Change this)**
+- [ ] *Shee Yoo* **(Phonetic spelling of your name here)**
 
 ## Important Documents 
 
