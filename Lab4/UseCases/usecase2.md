@@ -6,31 +6,45 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: Color test
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: User
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To test if pressing on each key will show the corresponding color as described.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: (1) Pressing the 1 key. (2) Pressing the 2 key. (3) Pressing the 3 key. (4) Pressing the 4 key. (5) Pressing the 5 key. (6) Pressing the 6 key. (7) Pressing the 7 key. (8) Pressing the 8 key. 
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario 1**: A user will press the 1 key when they want to draw in black.
+
+**Scenario 2**: A user will press the 2 key when they want to draw in white.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Scenario 3**: A user will press the 3 key when they want to draw in red.
+ 
+**Scenario 4**: A user will press the 4 key when they want to draw in green.
+ 
+**Scenario 5**: A user will press the 5 key when they want to draw in blue.
+ 
+**Scenario 6**: A user will press the 6 key when they want to draw in yellow.
+ 
+**Scenario 7**: A user will press the 7 key when they want to draw in magenta.
+ 
+**Scenario 8**: A user will press the 8 key when they want to draw in cyan.
+ 
+**Exceptions**: The program may become potentially unresponsive. In this case, the program can be terminated from the operating system. When a user presses on a key, the program might draw a color that is different from the documentation. In this case, further examination is required.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High-priority.
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: The primary actor communicates through the keyboard. The system should respond within 1 second of any keyboard event. The user is responsible for all other input.
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: We may need to add more key-color relationship in the future, and revise this use case to prompt a user testing other colors before exiting.
 
 <hr>
 

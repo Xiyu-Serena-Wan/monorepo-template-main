@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: The window size and drawable canvas size
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: Machine
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: To terminate if the size of the window and that of the drawable canvas are both 600 x 400.
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: The program must be running and in a responsive state.
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: Start the program.
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: A user will start the program and draw.
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: The size might be different than 600 x 400. In this case, the program can be terminated from the operating system and some codes needed to be edited.
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: High-priority.
 
-**When available**: *the targeted release that covers this use case*
+**When available**: First release
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: The primary actor communicates through programs in the software package. The system is responsible for maintaining the size of the window when the window is opened. 
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: N/A
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: N/A
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**: We may need to enable the canvas to be either bigger or smaller based on different needs in the future, and revise this use case.
 
 <hr>
 
